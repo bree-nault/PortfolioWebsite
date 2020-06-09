@@ -89,7 +89,7 @@
   }
   
   .adjustH2 {
-     margin: 5%;
+     margin: 2% 5%;
   }
   
   h3 {
@@ -204,7 +204,7 @@
       background-color: #DFDBB7;
       text-align: left;
       border-radius: 25px;
-      margin: auto 20%;
+      margin: auto 10%;
     }
   
     nav,
@@ -250,4 +250,16 @@
       float: right;
       margin-right: 20%;
     }
+
+      /* Insures Sections arn't hidden under nav and footer*/
+  
+  .portfolioSec {
+    margin-top:80px;
+    margin-bottom:80px;
+  }
+  
+  .aboutSec {
+     margin-top:80px;
+     margin-bottom:80px;
+  } 
   }
