@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #37527A;
+    text-align: center;
+    background-color: #BDC398;
+    padding-top: 51px;
+    padding-bottom:51px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  nav,
+  footer {
+    background-color: #5D9574;
+    font-size: 16px;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  p.define {
+    line-height: 180%;
+    font-size: 18px;
+  }
+  
+  ul {
+    padding-inline-start: 0;
+  }
+  
+  /* Container Info*/
+  .container {
+    padding: 2% 0;
+    background-color: #DFDBB7;
+    text-align: left;
+    border-radius: 25px;
+    margin: auto 5%;
+  }
+  
+  .borderLines {
+    border-style: solid none;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    border-color: #5D9574;
+  }
+  
+  img { 
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+  }
+  
+  .images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  
+  /* Headings */
+  h1 {
+    font-size: 28px;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  #adjustH1 {
+    padding: 2% 0;  
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  .adjustH2 {
+     margin: 5%;
+  }
+  
+  h3 {
+    font-size: 22px;
+    font-family: 'Fugaz One', cursive;
+  }
+  
+  /* Insures Sections arn't hidden under nav and footer*/
+  
+  .portfolioSec {
+    margin-top:70px;
+    margin-bottom:70px;
+  }
+  
+  .aboutSec {
+     margin-top:70px;
+     margin-bottom:70px;
+  } 
+  
+  /* vertically center section */
+  
+  .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  /* Link Info */
+  
+  a {
+    font-family: 'Monda', sans-serif;
+  }
+  
+  a:link {
+    color: #DFDBB7;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #DFDBB7;
+  }
+  
+  a:hover {
+    color:#DFDBB7;
+    text-decoration: underline;
+  }
+  
+  /* Navigation CSS*/
+  
+  .name {
+    float: left;
+    margin-left: 5%;
+  }
+  
+  .navBar .name li {
+    display: inline-block;
+  }
+  
+  .navBar .links {
+    float: right;
+    margin-right: 5%;
+  }
+  
+  .navBar .links li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  /* Project Links*/
+  
+  .projectLinks li{
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .projectLinks {
+    padding-inline-start: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .buttonLink {
+    background-color: #5D9574;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+  }
+  
+  .buttonLink:hover {
+    background-color: #89ab8b;
+  }
+  
+  /*Contact Links*/
+  .contactLinks li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+   @media only screen and (min-width: 700px) {
+  
+    .container {
+      padding: 2% 0;
+      background-color: #DFDBB7;
+      text-align: left;
+      border-radius: 25px;
+      margin: auto 20%;
+    }
+  
+    nav,
+    footer {
+      background-color: #5D9574;
+      font-size: 18px;
+      padding: 5px 0;
+    }
+  
+    p.define {
+      line-height: 220%;
+      font-size: 20px;
+    }
+  
+    /* Headings */
+  
+    h1 {
+      font-size: 30px;
+      font-family: 'Fugaz One', cursive;
+    }
+  
+    h2 {
+      font-size: 26px;
+      font-family: 'Fugaz One', cursive;
+    }
+  
+    h3 {
+      font-size: 24px;
+      font-family: 'Fugaz One', cursive;
+    }
+  
+    .portfolioSec {
+      margin-top:80px;
+      margin-bottom:80px;
+    }
+  
+    .name {
+      float: left;
+      margin-left: 20%;
+    }
+  
+    .navBar .links {
+      float: right;
+      margin-right: 20%;
+    }
+  }
