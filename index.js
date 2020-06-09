@@ -1,19 +1,16 @@
 function showAbout() {
     $('.portfolioSec').hide();
     $('.aboutSec').show();
-   
   }
   
   $("#portfolio").click(function(){
                $(".aboutSec").hide();
-               $(".portfolioSec").show();
-  
+               $(".portfolioSec").show()
           });
   
-        $("#about").click(function(){
+  $("#about").click(function(){
                $(".portfolioSec").hide();
                $(".aboutSec").show();
-  
-  
           });  
+
   $(showAbout);
